@@ -32,7 +32,7 @@ body {
 
 .reviewBorder {
     border-bottom: 1px solid #cccccc;
-    width: 440px;
+    width: 460px;
 }
 
 .reviewCard a {
@@ -46,7 +46,15 @@ body {
     border-bottom: 1px solid #cccccc;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    width: 440px;
+    width: 460px;
+}
+
+.infiniteScroll {
+    /* Could vary based on width of scroll */
+    width: 535px;
+    height: 570px;
+    overflow-y: scroll;
+    /* border: 1px solid #cccccc; */
 }
 
 

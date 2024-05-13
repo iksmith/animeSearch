@@ -9,7 +9,11 @@ function ReviewSection() {
         </header>
 
         <div className="reviewBorder"></div>
-        <ReviewCard />
+
+        <div className="infiniteScroll">
+            <ReviewCard />
+        </div>
+
     </div>
   )
 }
