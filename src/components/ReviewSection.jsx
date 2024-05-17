@@ -1,7 +1,11 @@
 import React from 'react'
 import ReviewCard from './ReviewCard'
+import { useNavigate } from 'react-router-dom'
 
 function ReviewSection() {
+
+    const navigate = useNavigate('');
+
   return (
     <div className='reviewSection'>
         <header>
@@ -11,7 +15,6 @@ function ReviewSection() {
         <div className="reviewBorder"></div>
 
         <div className="infiniteScroll">
-            <ReviewCard />
         </div>
 
     </div>
